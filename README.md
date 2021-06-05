@@ -30,13 +30,12 @@
 <h4>Отправить данные в очередь</h4>
 <p>
   Producer отправляет на сервер запрос вида:
-    
-    <pre><code> {
+    <pre><code>{
     "action": "POST",
     "mode": "queue",
     "key": "weather",
     "text": "temperature +18 C"
-} </code></pre>
+}</code></pre>
     в очередь weather будет добавлено сообщение "temperature +18 C"<br>
 <h4>Получить данные из очереди</h4>
 <p>
