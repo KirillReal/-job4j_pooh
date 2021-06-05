@@ -15,6 +15,7 @@ public class QueueService implements Service{
     private String take(String name) {
         return queueMap.get(name).poll();
     }
+
     @Override
     public Resp process(Req req) {
         System.out.println("QueueService process");
